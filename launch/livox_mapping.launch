@@ -2,7 +2,7 @@
   <arg name="rviz" default="true" />
 
   <node pkg="livox_mapping" type="livox_mapping_case" name="livox_mapping_case" output="screen">
-  <param name="map_file_path" type="string" value=" " />
+  <param name="map_file_path" type="string" value="/home/$(env USER)/Documents" />
   </node>
 
   <group if="$(arg rviz)">
