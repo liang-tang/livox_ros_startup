@@ -1,6 +1,6 @@
 <launch>
   <arg name="rosbag_enable" default="true"/>
-  <arg name="bag_file_path" default="/home/$(env USER)/Documents"/>
+  <arg name="bag_file_path" default="/home/$(env USER)/Documents/livox"/>
 
   <include file="$(find livox_ros_driver)/launch/livox_lidar_rviz.launch"/>
   <include file="$(find livox_ros_startup)/launch/novatel_gps.launch"/>
