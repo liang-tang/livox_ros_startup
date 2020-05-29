@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find livox_ros_driver)/launch/livox_lidar_rviz.launch"/>
+    <include file="$(find livox_ros_startup)/launch/novatel_gps.launch"/>
+    <include file="$(find livox_mapping)/launch/livox_mapping.launch"/>
+</launch>

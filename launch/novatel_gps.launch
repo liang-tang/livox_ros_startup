@@ -6,7 +6,7 @@
         args="standalone novatel_gps_driver/novatel_gps_nodelet">
     <rosparam>
       connection_type: serial
-      device: /dev/ttyUSB0
+      device: /dev/ttyUSB1
       frame_id: /gps
       imu_sample_rate: 20
       publish_imu_messages: true
